@@ -5,7 +5,7 @@ public class RubleForMiles {
         int refilAmount = 1100;
         int bonus;
 
-        if (refilAmount >= 1000) {
+        if (refilAmount > 1000) {
             bonus = refilAmount / 100;
             clientAccount = refilAmount + clientAccount + bonus;
         } else {
